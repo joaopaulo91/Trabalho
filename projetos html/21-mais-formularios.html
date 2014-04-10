@@ -1,0 +1,86 @@
+<html>
+	<head>
+		<title>mais-formularios</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<h1>Cadastro de Currículo</h1>
+		<fieldset>
+			<legend>
+			Informações Pessoais:
+			</legend>
+		<form>
+			Nome: 
+			<input type="text" name="nome">
+			<br>
+			Email: 
+			<input type="text" name="email">
+			<br>
+			Data de Nascimento: 
+			<input type="date" name="date"/>
+			<br>
+			Altura(m): 
+			<input type="number" name="altura"><br>
+			Site: 
+			<input type="text" name="site">
+			<br>
+			Estado Civil:
+			<select size="1" name="D1">
+			<option selected value="Selecione">Selecione</option>
+			<option value="0">Solteiro</option>
+			<option value="1">Casado</option>
+			</select>
+			<br>
+			Sexo:
+			<input type="radio" name="sex" value="mas"> Masculino
+			<input type="radio" name="sex" value="fem"> Feminino
+		</form>
+		</fieldset>
+		<fieldset>
+			<legend>
+			Endereço
+			</legend>
+		<form> 
+			CEP: 
+			<input type="text" name="cep">
+			<br>
+			Endereço: 
+			<input type="text" name="end">
+			</form> 
+		</fieldset>
+		<fieldset>
+			<legend>
+			Endereço
+			</legend>
+		<form> 
+			Telefone: 
+			<input type="text" name="tel">
+			<br>
+			Celular: 
+			<input type="text" name="cel">
+			</form> 
+		</fieldset>
+		<fieldset>
+			<legend>
+			Conhecimentos
+			</legend>
+		<form> 
+			<input type="checkbox" name="html">
+			HTML
+			<input type="checkbox" name="css">
+			CSS
+			<input type="checkbox" name="js">
+			JavaScript
+			<br>
+			<textarea style="margin-left:100px;" rows="10" cols="20" align="center">
+			Digite os seus conhecimentos
+			</textarea>
+			<p>Mais conhecimentos</p>
+			</form> 
+		</fieldset>
+		<form>
+		<input type="button" value="Enviar">
+		</form>
+
+	</body>
+</html>
